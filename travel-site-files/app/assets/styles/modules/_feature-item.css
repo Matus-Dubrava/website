@@ -1,0 +1,34 @@
+.feature-item {
+    position: relative;
+    padding-bottom: 2.5rem;
+
+    @media (min-width: $atSmall) {
+        padding-left: 94px;
+    }
+
+    &__icon {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+        @media (min-width: $atSmall) {
+            left: 0;
+            position: absolute;
+            display: inline-block;
+        }
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 0.8rem;
+        margin-top: 0.7rem;
+        text-align: center;
+
+        @media (min-width: $atSmall) {
+            margin-top: 1rem;
+            font-size: 1.875rem;
+            text-align: left;
+        }
+    }
+}
