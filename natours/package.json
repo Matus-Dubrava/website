@@ -1,0 +1,17 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev:compile-css": "node-sass scss/main.scss css/style.css --watch",
+        "dev:server": "live-server",
+        "dev": "concurrently \"npm run dev:compile-css\" \"npm run dev:server\""
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^4.0.1",
+        "node-sass": "^4.9.4"
+    }
+}
